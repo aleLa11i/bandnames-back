@@ -26,6 +26,8 @@ class Server {
 
         this.app.use(  cors() );
 
+        this.app.use( express.json() );
+
     }
 
     configSockets() {
